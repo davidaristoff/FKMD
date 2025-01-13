@@ -7,5 +7,3 @@ This repository also includes code, "FKMD.m", for running FKMD on any input and 
 "FKMD_lorenz96.m" runs FKMD on the Lorenz96 data. This generates a data file for each iteration.
 
 "FKMD_analysis.m" analyzes these data files to create the plots that appear in the Lorenz experiment.
-
-To reproduce the Lorenz experiment figures: Run "FKMD.m" to get the FKMD data. Then re-run "FKMD.m" after changing parameters N=10^6+99, delay=1, and iters=1 to get the ordinary KMD data; save it as "KMD.mat". Then to get the plots, run "FKMD_analysis.m". 
